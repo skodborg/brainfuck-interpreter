@@ -1,0 +1,20 @@
+# Compiled source #
+###################
+*.o
+*.s
+a.out
+
+# Python specifics #
+####################
+__pycache__
+
+
+# Project specifics #
+#####################
+sourcefile
+64
+asm-test
+hello
+lib/
+parsetab.py
+parser.out
