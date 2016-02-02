@@ -77,6 +77,6 @@ def main():
 
 	program_file = open(args.source, 'r')
 	program_str = program_file.read()
-	interpret(program_str)
+	interpret(program_str, True)
 
 if __name__ == "__main__" : main()
